@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Notable");
+@import url("https://fonts.googleapis.com/css?family=Cedarville+Cursive");
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Shadows+Into+Light');
+
+.name {
+  color: CADETBLUE;
+  line-height: 0.5;
+  font-size: 14vw;
+  font-family: "Notable", "Trebuchet MS", Arial, sans-serif;
+  display: inline-block;
+  border: 0px solid red;
+  padding: 0px;
+  margin: 0px;
+}
+
+.lastname {
+  color: CADETBLUE;
+  font-size: 5vw;
+  line-height: 1.4;
+  letter-spacing: 20px;
+  font-family: "Cedarville Cursive", cursive;
+  display: inline-block;
+  border: 0px solid red;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-image: url("https://lh3.googleusercontent.com/WNuV7LGuHiJf7gFNi2G08JYCAZs-_w8xbnhCqUmWt9KiXPg74SI7Zq_j6UO_PCDZ2b2RJfraMXHiuQI_-EtE-Md287c4ZAgcToGFdD26wgyiXBt7Wz-Y5t7nNDjUHjumIeQGAJXa8BuZj9ALoWINPHpWjnz_OuUkffOsBdPJjRqbF6vrWHgH3MplqJ7tZWHyYvoBKpfoOhJK4abSUPl7R3FtflCKEyMBbGXnrccnIpQXYm7qume4Facr6E7BiMqTQTWN997Njz0ORxnJCjWnHIFUWiTD6ApV8_BeRSyVzGdSYcPA3js5BalFQ9pCfdK8vFRyooZj83TiyEUTjarUJ8Q11GnffnDpAHNFSI8h6ZtXI945f7UnvSIwqEyuvW6gCsMFsPdiVQ9xmutzY2q7-jWaWOWEqLR6ZnnQT6BuYYFQZ53tqxf6ZQ0WOqJda2nvYcGT-gURi7YpOJnN5OqFMlHjSjhmMncNfgffoLjJsFupWWqA7jhHayzYTL8Ce6X45zsAbYwuhBw_BDixgWOmxxgIk_4FnneTEIVGsdmhMCInC_lIxOjveOp2V1zHm_gRQhSZ-B8l7nbZ7jCwRa9Ww4HpfjrCieYU5qh5RBAdV9H0N6Ed7caVh8GjgMWq_0E=w468-h753-no");
+  background-color: #cccccc;
+}
+
+.image {
+  border-radius: 60%;
+  width: 280px;
+  height: 250px;
+  opacity: 0.85;
+}
+img:hover {
+  box-shadow: 0 0 7px 4px rgba(95, 158, 160, 0.5);
+}
+p{
+  display: inline-block;
+  border: 5px solid CADETBLUE;
+  padding: 16px;
+  margin: 32px;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: CADETBLUE;
+  font-weight: bold;
+
+}
+.endline{
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  border-radius: 1px;
+  background-color: rgba(95, 158, 160, 1.0);
+}
+.p{
+  color: CADETBLUE;
+  font-size: 5vw;
+  line-height: 1.4;
+  letter-spacing: 20px;
+  font-family: "Cedarville Cursive", cursive;
+  display: inline-block;
+  border: 0px solid red;
+  padding: 0px;
+  margin: 0px;
+
+}
+.image1{
+  height: 100px;
+  margin: 10px;
+  border: 1px solid CADETBLUE;
+}
+
+.photos{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 70vh;
+}
