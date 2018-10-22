@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Shadows+Into+Light');
 
 .name {
-  color: CADETBLUE;
+  color: LIGHTBLUE;
   line-height: 0.5;
   font-size: 14vw;
   font-family: "Notable", "Trebuchet MS", Arial, sans-serif;
@@ -14,7 +14,7 @@
 }
 
 .lastname {
-  color: CADETBLUE;
+  color: SKYBLUE;
   font-size: 5vw;
   line-height: 1.4;
   letter-spacing: 20px;
@@ -25,7 +25,7 @@
   margin: 0px;
 }
 body {
-  background-image: url("https://lh3.googleusercontent.com/WNuV7LGuHiJf7gFNi2G08JYCAZs-_w8xbnhCqUmWt9KiXPg74SI7Zq_j6UO_PCDZ2b2RJfraMXHiuQI_-EtE-Md287c4ZAgcToGFdD26wgyiXBt7Wz-Y5t7nNDjUHjumIeQGAJXa8BuZj9ALoWINPHpWjnz_OuUkffOsBdPJjRqbF6vrWHgH3MplqJ7tZWHyYvoBKpfoOhJK4abSUPl7R3FtflCKEyMBbGXnrccnIpQXYm7qume4Facr6E7BiMqTQTWN997Njz0ORxnJCjWnHIFUWiTD6ApV8_BeRSyVzGdSYcPA3js5BalFQ9pCfdK8vFRyooZj83TiyEUTjarUJ8Q11GnffnDpAHNFSI8h6ZtXI945f7UnvSIwqEyuvW6gCsMFsPdiVQ9xmutzY2q7-jWaWOWEqLR6ZnnQT6BuYYFQZ53tqxf6ZQ0WOqJda2nvYcGT-gURi7YpOJnN5OqFMlHjSjhmMncNfgffoLjJsFupWWqA7jhHayzYTL8Ce6X45zsAbYwuhBw_BDixgWOmxxgIk_4FnneTEIVGsdmhMCInC_lIxOjveOp2V1zHm_gRQhSZ-B8l7nbZ7jCwRa9Ww4HpfjrCieYU5qh5RBAdV9H0N6Ed7caVh8GjgMWq_0E=w468-h753-no");
+  background-image:url(Assests/bg2.png);
   background-color: #cccccc;
 }
 
@@ -40,11 +40,11 @@ img:hover {
 }
 p{
   display: inline-block;
-  border: 5px solid CADETBLUE;
+  border: 5px solid SKYBLUE;
   padding: 16px;
   margin: 32px;
   font-family: 'Gloria Hallelujah', cursive;
-  color: CADETBLUE;
+  color: SKYBLUE;
   font-weight: bold;
 
 }
@@ -53,10 +53,10 @@ p{
   width: 100%;
   height: 30px;
   border-radius: 1px;
-  background-color: rgba(95, 158, 160, 1.0);
+  background-color: rgba(173, 216, 230, 1.0);
 }
 .p{
-  color: CADETBLUE;
+  color: SKYBLUE;
   font-size: 5vw;
   line-height: 1.4;
   letter-spacing: 20px;
@@ -68,9 +68,9 @@ p{
 
 }
 .image1{
-  height: 100px;
+  height: 120px;
   margin: 10px;
-  border: 1px solid CADETBLUE;
+  border: 1px solid LIGHTBLUE;
 }
 
 .photos{
@@ -78,4 +78,26 @@ p{
   justify-content: space-around;
   flex-wrap: wrap;
   height: 70vh;
+  transition: transform .2s;
+
 }
+
+.p1:hover {transform: scale(1.5);}
+.p2:hover {transform: scale(1.5);}
+.p3:hover {transform: scale(1.5);}
+.p4:hover {transform: scale(1.5);}
+.p5:hover {transform: scale(1.5);}
+.p6:hover {transform: scale(1.5);}
+.p7:hover {transform: scale(1.5);}
+.p8:hover {transform: scale(1.5);}
+.p9:hover {transform: scale(1.5);}
+.p10:hover {transform: scale(1.5);}
+.p11:hover {transform: scale(1.5);}
+.p12:hover {transform: scale(1.5);}
+.p13:hover {transform: scale(1.5);}
+.p14:hover {transform: scale(1.5);}
+.p15:hover {transform: scale(1.5);}
+.p16:hover {transform: scale(1.5);}
+.p17:hover {transform: scale(1.5);}
+.p18:hover {transform: scale(1.5);}
+.p19:hover {transform: scale(1.5);}
