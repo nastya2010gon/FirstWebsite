@@ -1,59 +1,72 @@
 @import url("https://fonts.googleapis.com/css?family=Notable");
 @import url("https://fonts.googleapis.com/css?family=Cedarville+Cursive");
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Meddon|Permanent+Marker|Rock+Salt|Sedgwick+Ave+Display');
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fafafa;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    background-color: rgb(235, 215, 21);
+    margin: 0;
+}
+
+.nav a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav a:hover {
+   color: SKYBLUE;
+ }
 
 .name {
-  color: LIGHTBLUE;
-  line-height: 0.5;
+  color: SKYBLUE;
   font-size: 14vw;
-  font-family: "Notable", "Trebuchet MS", Arial, sans-serif;
+  font-family:'Rock Salt', cursive;
+  margin-block-start: 0.45em;
+  margin-block-end: -10em;
+  margin-inline-start: 200px;
+  margin-inline-end: 0px;
   display: inline-block;
-  border: 0px solid red;
-  padding: 0px;
-  margin: 0px;
 }
 
-.lastname {
+.welcome{
   color: SKYBLUE;
-  font-size: 5vw;
-  line-height: 1.4;
-  letter-spacing: 20px;
-  font-family: "Cedarville Cursive", cursive;
+  font-size: 3vw;
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-block-start: 0.001em;
+  margin-block-end: 0em;
+  margin-inline-start: 12em;
+  margin-inline-end: 0px;
   display: inline-block;
-  border: 0px solid red;
-  padding: 0px;
-  margin: 0px;
 }
+
 body {
-  background-image:url(Assests/bg2.PNG);
+  background-image:url(Assests/bg2.png);
   background-color: #cccccc;
 }
 
-.image {
-  border-radius: 60%;
-  width: 280px;
-  height: 250px;
-  opacity: 0.85;
-}
-img:hover {
-  box-shadow: 0 0 7px 4px rgba(95, 158, 160, 0.5);
-}
+
 p{
   display: inline-block;
   border: 5px solid SKYBLUE;
   padding: 16px;
-  margin: 32px;
+  margin: 0px;
   font-family: 'Gloria Hallelujah', cursive;
   color: SKYBLUE;
   font-weight: bold;
 
-}
-.endline{
-  display: inline-block;
-  width: 100%;
-  height: 30px;
-  border-radius: 1px;
-  background-color: rgba(173, 216, 230, 1.0);
 }
 .p{
   color: SKYBLUE;
@@ -64,40 +77,17 @@ p{
   display: inline-block;
   border: 0px solid red;
   padding: 0px;
-  margin: 0px;
-
-}
-.image1{
-  height: 120px;
   margin: 10px;
-  border: 1px solid LIGHTBLUE;
-}
-
-.photos{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  height: 70vh;
-  transition: transform .2s;
 
 }
 
-.p1:hover {transform: scale(1.5);}
-.p2:hover {transform: scale(1.5);}
-.p3:hover {transform: scale(1.5);}
-.p4:hover {transform: scale(1.5);}
-.p5:hover {transform: scale(1.5);}
-.p6:hover {transform: scale(1.5);}
-.p7:hover {transform: scale(1.5);}
-.p8:hover {transform: scale(1.5);}
-.p9:hover {transform: scale(1.5);}
-.p10:hover {transform: scale(1.5);}
-.p11:hover {transform: scale(1.5);}
-.p12:hover {transform: scale(1.5);}
-.p13:hover {transform: scale(1.5);}
-.p14:hover {transform: scale(1.5);}
-.p15:hover {transform: scale(1.5);}
-.p16:hover {transform: scale(1.5);}
-.p17:hover {transform: scale(1.5);}
-.p18:hover {transform: scale(1.5);}
-.p19:hover {transform: scale(1.5);}
+#about{
+  display: block;
+ margin-block-start: 29em;
+ margin-block-end: 5em;
+ margin-inline-start: 150px;
+ margin-inline-end: 150px;
+ font-weight: bold;
+ font-size: 1.5vw;
+
+}
