@@ -3,91 +3,142 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Shadows+Into+Light');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Meddon|Permanent+Marker|Rock+Salt|Sedgwick+Ave+Display');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 
-.nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background-color: #fafafa;
-    padding-top: 8px;
-    padding-bottom: 16px;
-    background-color: rgb(235, 215, 21);
-    margin: 0;
+
+
+/* Dropdown Button */
+
+.nav{
+background-color: #000000;
+text-align: center;
+
+}
+.dropbtn {
+  background-color: Transparent;
+  color: white;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+  font-size: 120px;
+  font-family: 'Fredericka the Great';
+  padding-right: 300px;
 }
 
-.nav a {
-    color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: 'Permanent Marker', cursive;
+.dropbtnTwo {
+  background-color: Transparent;
+  color: white;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+  font-size: 120px;
+  font-family: 'Fredericka the Great';
+  padding-left: 200px;
 }
 
-.nav a:hover {
-   color: SKYBLUE;
- }
+/* Dropdown button on hover & focus */
 
-.name {
-  color: SKYBLUE;
-  font-size: 14vw;
-  font-family:'Rock Salt', cursive;
-  margin-block-start: 0.45em;
-  margin-block-end: -10em;
-  margin-inline-start: 200px;
-  margin-inline-end: 0px;
+
+.dropbtn:hover, .dropbtn:focus {
+  color: : #2980B9;
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
   display: inline-block;
 }
 
-.welcome{
-  color: SKYBLUE;
-  font-size: 3vw;
-  font-family: 'Gloria Hallelujah', cursive;
-  margin-block-start: 0.001em;
-  margin-block-end: 0em;
-  margin-inline-start: 12em;
-  margin-inline-end: 0px;
+.drop {
+  position: relative;
   display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+  color: #ff487a;
+  transition: color 10.0s ease-in-out;
+  -moz-transition: color 10.0s ease-in-out;
+  text-decoration: none;
+}
+
+.drop-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+  color: #ff487a;
+  transition: color 10.0s ease-in-out;
+  -moz-transition: color 10.0s ease-in-out;
+  text-decoration: none;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  font-size: 50px;
+  padding: 12px 16px;
+  font-family: 'Fredericka the Great';
+  text-decoration: none;
+  display: block;
+  color: #000000;
+  transition: color 10.0s ease-in-out;
+	-moz-transition: color 10.0s ease-in-out;
+  text-decoration: none;
+}
+
+.drop-content a {
+  color: black;
+    font-size: 50px;
+  padding: 12px 16px;
+  font-family: 'Fredericka the Great';
+  text-decoration: none;
+  display: block;
+  color: #000000;
+  transition: color 10.0s ease-in-out;
+  -moz-transition: color 10.0s ease-in-out;
+  text-decoration: none;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {-webkit-animation: zomg 10.0s infinite;
+  animation: zomg 10.0s infinite;}
+
+
+.dropdown:hover .dropbtn {-webkit-animation: zomg 10.0s infinite;
+  animation: zomg 10.0s infinite;}
+.dropdown:hover .dropdown-content {display: block;}
+
+.drop-content a:hover {-webkit-animation: zomg 10.0s infinite;
+  animation: zomg 10.0s infinite;}
+.drop:hover .dropbtnTwo {-webkit-animation: zomg 10.0s infinite;
+  animation: zomg 10.0s infinite;}
+.drop:hover .drop-content {display: block;}
+
+
+  @-webkit-keyframes zomg {
+  0%, 100% { color: #2cb693; }
+  16%      { color: #34b62b; }
+  32%      { color: #b6b52c; }
+  48%      { color: #b12a2a; }
+  64%      { color: #b62cb3; }
+  80%      { color: #ff4136; }
+}
+@keyframes zomg {
+  0%, 100% { color: #2cb693; }
+  16%      { color: #34b62b; }
+  32%      { color: #b6b52c; }
+  48%      { color: #b12a2a; }
+  64%      { color: #b62cb3; }
+  80%      { color: #ff4136; }
 }
 
 body {
-  background-image:url(Assets/bg2.PNG);
-  background-color: #cccccc;
-}
-
-
-p{
-  display: inline-block;
-  border: 5px solid SKYBLUE;
-  padding: 16px;
-  margin: 0px;
-  font-family: 'Gloria Hallelujah', cursive;
-  color: SKYBLUE;
-  font-weight: bold;
-
-}
-.p{
-  color: SKYBLUE;
-  font-size: 5vw;
-  line-height: 1.4;
-  letter-spacing: 20px;
-  font-family: "Cedarville Cursive", cursive;
-  display: inline-block;
-  border: 0px solid red;
-  padding: 0px;
-  margin: 10px;
-
-}
-
-#about{
-  display: block;
- margin-block-start: 29em;
- margin-block-end: 5em;
- margin-inline-start: 150px;
- margin-inline-end: 150px;
- font-weight: bold;
- font-size: 1.5vw;
-
+  background-color: #000000;
 }
